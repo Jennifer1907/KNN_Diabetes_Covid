@@ -40,16 +40,4 @@ KNN Regression is:
 - Effective for small to medium datasets  
 - A good baseline model in medical ML tasks
 
----
 
-## 🔧 Exercises
-
-### Exercise 1: Load and Explore the Data
-```python
-from sklearn.datasets import load_diabetes
-import matplotlib.pyplot as plt
-
-data = load_diabetes()
-X, y = data.data, data.target
-
-# Your exploration code here
